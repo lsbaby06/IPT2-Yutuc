@@ -167,3 +167,46 @@ h2:hover{
     transform: scale(1.2);
     z-index: 2;
 }
+
+/*Part 5 Footer*/
+.footercontainer{
+    position:absolute;
+    bottom:auto;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    background-color:rgb(15, 15, 15);
+    padding:15px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+
+.footer-contents{
+     color: white;
+     font-weight: bold;
+     text-align:center;
+     width: 25%;
+     margin: 10px;
+}
+
+.title{
+    color:red;
+    font-size: 25px;
+    margin:5px;
+    font-family:JoshuaFont;
+}
+
+.info{
+    font-size: 15px;
+    font-weight: 100;
+    padding:10px;
+}
+
+.socialmedia{
+    color: white;
+    font-size:25px;
+    padding:5px; 
+}
