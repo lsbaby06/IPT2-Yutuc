@@ -34,3 +34,42 @@
     font-size: 30px;
     font-family: JoshuaFont;
 }
+
+/*Part 2 Banner*/
+.hero-text h1{
+    color:red;
+    font-family: JoshuaFont;
+    margin:0px;
+    padding:100px;
+    font-size: 100px;
+    text-align: center;
+}
+.hero-text h1:hover{
+    font-size: 120px;
+    transition: 1s;
+    
+}
+
+body, html{
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(15, 15, 15);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('Image/Background.jpg');
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: height 2s;
+}
+
+.hero-image:hover{
+    height:100%;
+
+}
