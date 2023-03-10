@@ -129,8 +129,10 @@ h2 {
     
 }
 
-
-
+h2:hover{
+    font-size: 30px;
+    transition:.8s;
+}
 
 .games{
     width: 100%;
@@ -159,4 +161,9 @@ h2 {
     display: block;
     width: 100%;
     border-radius: 5px;
+}
+
+.box:hover{
+    transform: scale(1.2);
+    z-index: 2;
 }
